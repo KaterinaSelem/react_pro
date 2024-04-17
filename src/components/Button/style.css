@@ -1,0 +1,9 @@
+.main-button {
+    width: 300px;
+    background: rgb(21, 63, 73);
+    font-size: 28px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 30px;
+}

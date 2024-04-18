@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styles.css";
 import Profile from "../../../components/ProfileCard/ProfileCard";
 
 const Homework02 = () => {

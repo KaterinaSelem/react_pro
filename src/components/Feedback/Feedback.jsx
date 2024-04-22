@@ -1,7 +1,7 @@
-import "./style.css";
-import Button from "../Button/Button";
 import { useState } from "react";
 
+import "./style.css";
+import Button from "../Button/Button";
 
 function Feedback() {
   const [like, setLikes] = useState(0);
@@ -23,17 +23,17 @@ function Feedback() {
   return (
     <div className="feedback-wrapper">
       <div className="button-control">
-        <Button onButtonClick={onLike} name="Like" />
+        <Button  name="Like"  onButtonClick={onLike}/>
         </div>
         <p>{like}</p>
       
       <div className="button-control">
-        <Button onButtonClick={onDisLike} name="Dislike" />
+        <Button name="Dislike" onButtonClick={onDisLike}/>
         </div>
         <p>{dislike}</p>
       
       <div className="button-control">
-        <Button onButtonClick={onReset} name="Reset Results" />
+        <Button name="Reset Results" onButtonClick={onReset} />
       </div>
     </div>
   );
